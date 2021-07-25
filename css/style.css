@@ -14,16 +14,29 @@ body {
 .search-input:focus {
   outline: none;
 }
+.search:focus {
+  outline: none;
+}
+.search-input {
+  padding: 10px;
+}
+.search {
+  right: 10px;
+  font-size: 18px;
+}
 .fa-search {
   color: #bababa;
   height: 22px;
   width: 22px;
 }
-
+.search-input {
+  width: 80%;
+}
 .search-box,
 .search-input {
   background-color: #f1f1f1;
 }
+
 .title {
   font-size: 56px;
 }
